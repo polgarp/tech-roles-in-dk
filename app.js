@@ -5,11 +5,11 @@
 const CONFIG = {
   // Get your API key from: https://console.cloud.google.com/apis/credentials
   // Enable "Custom Search API" first: https://console.cloud.google.com/apis/library/customsearch.googleapis.com
-  API_KEY: 'YOUR_API_KEY_HERE',
+  API_KEY: 'AIzaSyBlnmT3BWQ4qBs1wZx8uQErN7TJKss7lqI',
 
   // Get your Search Engine ID from: https://programmablesearchengine.google.com/
   // It looks like: "a1b2c3d4e5f6g7h8i" or similar
-  SEARCH_ENGINE_ID: 'YOUR_SEARCH_ENGINE_ID_HERE',
+  SEARCH_ENGINE_ID: 'a087d68a8e1ef4449',
 
   // Number of results per page (max 10 for Google API)
   RESULTS_PER_PAGE: 10
