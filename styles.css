@@ -34,48 +34,28 @@ header h1 {
   font-size: 1rem;
 }
 
-/* Search Section */
+/* Search Section - Google CSE Widget */
 .search-section {
   margin-bottom: 2rem;
 }
 
-.search-form {
-  display: flex;
-  gap: 0.5rem;
+/* Style adjustments for Google CSE widget */
+.gsc-control-cse {
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
 }
 
-#search-input {
-  flex: 1;
-  padding: 0.75rem 1rem;
-  font-size: 1rem;
-  border: 2px solid #ddd;
-  border-radius: 6px;
-  transition: border-color 0.2s;
+.gsc-search-box {
+  margin-bottom: 1rem !important;
 }
 
-#search-input:focus {
-  outline: none;
-  border-color: #0066cc;
+.gsc-input-box {
+  border-radius: 6px !important;
 }
 
-#search-button {
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  background: #0066cc;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-#search-button:hover {
-  background: #0052a3;
-}
-
-#search-button:disabled {
-  background: #ccc;
-  cursor: not-allowed;
+.gsc-search-button-v2 {
+  border-radius: 6px !important;
 }
 
 /* Results Section */
