@@ -5,7 +5,7 @@
 const CONFIG = {
   // Get your API key from: https://console.cloud.google.com/apis/credentials
   // Enable "Custom Search API" first: https://console.cloud.google.com/apis/library/customsearch.googleapis.com
-  API_KEY: 'AIzaSyBlnmT3BWQ4qBs1wZx8uQErN7TJKss7lqI',
+  API_KEY: 'AIzaSyABUond_k3U0Q6gdrxrr5rxOkIPQNUCwto',
 
   // Get your Search Engine ID from: https://programmablesearchengine.google.com/
   // It looks like: "a1b2c3d4e5f6g7h8i" or similar
