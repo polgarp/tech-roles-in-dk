@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danish Tech Jobs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Danish Tech Jobs</h1>
+      <p class="subtitle">Search job openings across Danish tech companies</p>
+    </header>
+
+    <main>
+      <section class="search-section">
+        <form id="search-form" class="search-form">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search jobs (e.g., designer, engineer, data)"
+            autocomplete="off"
+          >
+          <button type="submit" id="search-button">Search</button>
+        </form>
+      </section>
+
+      <section id="results-section" class="results-section hidden">
+        <h2>Search Results</h2>
+        <div id="results-container"></div>
+        <div id="pagination" class="pagination"></div>
+      </section>
+
+      <section class="sites-section">
+        <h2>Career Pages</h2>
+        <p class="sites-description">Browse company career pages directly:</p>
+        <ul id="sites-list" class="sites-list">
+          <li class="loading">Loading sites...</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Powered by <a href="https://programmablesearchengine.google.com/" target="_blank" rel="noopener">Google Programmable Search</a>
+        · <a href="annotations.xml" target="_blank">View site list (XML)</a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
