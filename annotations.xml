@@ -3,24 +3,25 @@
   <!--
     HOW TO ADD A NEW SITE:
     1. Copy an <Annotation> block below
-    2. Change the "about" URL pattern (domain/path/*)
+    2. Change the "about" URL pattern - use specific job listing paths when possible
     3. Update "display_name" to the company name
-    4. Update "href" to the direct careers page link
+    4. Update "href" to the direct careers/jobs page link
     5. Save this file and push to GitHub
     6. Upload to Google PSE: Setup → Sites to search → Advanced → Add annotations file
-       (Google will ignore the AdditionalData elements and just use the Label)
   -->
 
-  <Annotation about="careers.unity.com/*">
+  <!-- Large Danish Companies -->
+
+  <Annotation about="www.novonordisk.com/careers/find-a-job/*">
     <Label name="_include_"/>
-    <AdditionalData attribute="display_name" value="Unity"/>
-    <AdditionalData attribute="href" value="https://careers.unity.com/"/>
+    <AdditionalData attribute="display_name" value="Novo Nordisk"/>
+    <AdditionalData attribute="href" value="https://www.novonordisk.com/careers/find-a-job.html"/>
   </Annotation>
 
-  <Annotation about="www.maersk.com/careers/*">
+  <Annotation about="www.maersk.com/careers/vacancies/*">
     <Label name="_include_"/>
     <AdditionalData attribute="display_name" value="Maersk"/>
-    <AdditionalData attribute="href" value="https://www.maersk.com/careers"/>
+    <AdditionalData attribute="href" value="https://www.maersk.com/careers/vacancies"/>
   </Annotation>
 
   <Annotation about="jobs.lego.com/*">
@@ -29,10 +30,10 @@
     <AdditionalData attribute="href" value="https://jobs.lego.com/"/>
   </Annotation>
 
-  <Annotation about="www.novonordisk.com/careers/*">
+  <Annotation about="careers.vestas.com/*">
     <Label name="_include_"/>
-    <AdditionalData attribute="display_name" value="Novo Nordisk"/>
-    <AdditionalData attribute="href" value="https://www.novonordisk.com/careers.html"/>
+    <AdditionalData attribute="display_name" value="Vestas"/>
+    <AdditionalData attribute="href" value="https://careers.vestas.com/search/"/>
   </Annotation>
 
   <Annotation about="www.carlsberggroup.com/careers/*">
@@ -41,16 +42,24 @@
     <AdditionalData attribute="href" value="https://www.carlsberggroup.com/careers/"/>
   </Annotation>
 
-  <Annotation about="www.vestas.com/en/careers/*">
-    <Label name="_include_"/>
-    <AdditionalData attribute="display_name" value="Vestas"/>
-    <AdditionalData attribute="href" value="https://www.vestas.com/en/careers"/>
-  </Annotation>
-
   <Annotation about="www.orsted.com/en/careers/*">
     <Label name="_include_"/>
     <AdditionalData attribute="display_name" value="Orsted"/>
     <AdditionalData attribute="href" value="https://www.orsted.com/en/careers"/>
+  </Annotation>
+
+  <Annotation about="careers.unity.com/*">
+    <Label name="_include_"/>
+    <AdditionalData attribute="display_name" value="Unity"/>
+    <AdditionalData attribute="href" value="https://careers.unity.com/"/>
+  </Annotation>
+
+  <!-- Tech Companies / Scale-ups -->
+
+  <Annotation about="www.pleo.io/*/careers/*">
+    <Label name="_include_"/>
+    <AdditionalData attribute="display_name" value="Pleo"/>
+    <AdditionalData attribute="href" value="https://www.pleo.io/en/careers"/>
   </Annotation>
 
   <Annotation about="www.trustpilot.com/careers/*">
@@ -65,10 +74,52 @@
     <AdditionalData attribute="href" value="https://www.zendesk.com/jobs/"/>
   </Annotation>
 
-  <Annotation about="www.pleo.io/en/careers/*">
+  <Annotation about="umbraco.com/careers/*">
     <Label name="_include_"/>
-    <AdditionalData attribute="display_name" value="Pleo"/>
-    <AdditionalData attribute="href" value="https://www.pleo.io/en/careers"/>
+    <AdditionalData attribute="display_name" value="Umbraco"/>
+    <AdditionalData attribute="href" value="https://umbraco.com/careers/"/>
+  </Annotation>
+
+  <Annotation about="www.keepit.com/careers/*">
+    <Label name="_include_"/>
+    <AdditionalData attribute="display_name" value="Keepit"/>
+    <AdditionalData attribute="href" value="https://www.keepit.com/careers/"/>
+  </Annotation>
+
+  <Annotation about="dreamdata.io/careers/*">
+    <Label name="_include_"/>
+    <AdditionalData attribute="display_name" value="Dreamdata"/>
+    <AdditionalData attribute="href" value="https://dreamdata.io/careers"/>
+  </Annotation>
+
+  <Annotation about="www.copenhagenatomics.com/careers/*">
+    <Label name="_include_"/>
+    <AdditionalData attribute="display_name" value="Copenhagen Atomics"/>
+    <AdditionalData attribute="href" value="https://www.copenhagenatomics.com/careers/"/>
+  </Annotation>
+
+  <Annotation about="gomspace.com/careers/*">
+    <Label name="_include_"/>
+    <AdditionalData attribute="display_name" value="GomSpace"/>
+    <AdditionalData attribute="href" value="https://gomspace.com/careers.aspx"/>
+  </Annotation>
+
+  <Annotation about="www.livahealthcare.com/careers/*">
+    <Label name="_include_"/>
+    <AdditionalData attribute="display_name" value="Liva Healthcare"/>
+    <AdditionalData attribute="href" value="https://www.livahealthcare.com/careers/"/>
+  </Annotation>
+
+  <Annotation about="www.morningscore.io/careers/*">
+    <Label name="_include_"/>
+    <AdditionalData attribute="display_name" value="Morningscore"/>
+    <AdditionalData attribute="href" value="https://www.morningscore.io/careers/"/>
+  </Annotation>
+
+  <Annotation about="princh.com/careers/*">
+    <Label name="_include_"/>
+    <AdditionalData attribute="display_name" value="Princh"/>
+    <AdditionalData attribute="href" value="https://princh.com/careers/"/>
   </Annotation>
 
 </Annotations>
