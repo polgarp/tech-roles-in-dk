@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  danish-tech-jobs:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      # Mount sites.json so you can edit it without rebuilding
+      - ./sites.json:/app/sites.json:ro
+    environment:
+      - NODE_ENV=production

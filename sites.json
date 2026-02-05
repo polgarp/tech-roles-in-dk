@@ -1,0 +1,254 @@
+{
+  "companies": [
+    {
+      "name": "Novo Nordisk",
+      "careerUrl": "https://www.novonordisk.com/careers/find-a-job.html",
+      "platform": "custom"
+    },
+    {
+      "name": "Maersk",
+      "careerUrl": "https://www.maersk.com/careers/vacancies",
+      "platform": "custom"
+    },
+    {
+      "name": "LEGO",
+      "careerUrl": "https://jobs.lego.com/",
+      "platform": "custom"
+    },
+    {
+      "name": "Vestas",
+      "careerUrl": "https://careers.vestas.com/search/",
+      "platform": "custom"
+    },
+    {
+      "name": "Carlsberg",
+      "careerUrl": "https://www.carlsberggroup.com/careers/",
+      "platform": "custom"
+    },
+    {
+      "name": "Orsted",
+      "careerUrl": "https://www.orsted.com/en/careers",
+      "platform": "custom"
+    },
+    {
+      "name": "Unity",
+      "careerUrl": "https://careers.unity.com/",
+      "platform": "custom"
+    },
+    {
+      "name": "Pleo",
+      "careerUrl": "https://www.pleo.io/en/careers",
+      "platform": "custom"
+    },
+    {
+      "name": "Trustpilot",
+      "careerUrl": "https://www.trustpilot.com/careers",
+      "platform": "custom"
+    },
+    {
+      "name": "Zendesk",
+      "careerUrl": "https://www.zendesk.com/jobs/",
+      "platform": "custom"
+    },
+    {
+      "name": "Lunar",
+      "careerUrl": "https://jobs.lunar.app/jobs",
+      "platform": "teamtailor"
+    },
+    {
+      "name": "Too Good To Go",
+      "careerUrl": "https://www.toogoodtogo.com/careers",
+      "platform": "custom"
+    },
+    {
+      "name": "Corti",
+      "careerUrl": "https://jobs.corti.ai/",
+      "platform": "ashby"
+    },
+    {
+      "name": "Templafy",
+      "careerUrl": "https://www.templafy.com/career/",
+      "platform": "greenhouse"
+    },
+    {
+      "name": "Podimo",
+      "careerUrl": "https://careers.podimo.com/jobs",
+      "platform": "teamtailor"
+    },
+    {
+      "name": "Dixa",
+      "careerUrl": "https://www.dixa.com/careers/",
+      "platform": "custom"
+    },
+    {
+      "name": "Leapwork",
+      "careerUrl": "https://www.leapwork.com/jobs",
+      "platform": "custom"
+    },
+    {
+      "name": "Planday",
+      "careerUrl": "https://apply.workable.com/planday/",
+      "platform": "workable"
+    },
+    {
+      "name": "Airtame",
+      "careerUrl": "https://airtame.com/careers/",
+      "platform": "custom"
+    },
+    {
+      "name": "Siteimprove",
+      "careerUrl": "https://careers.siteimprove.com/",
+      "platform": "custom"
+    },
+    {
+      "name": "Monta",
+      "careerUrl": "https://careers.monta.com/jobs",
+      "platform": "teamtailor"
+    },
+    {
+      "name": "Famly",
+      "careerUrl": "https://www.famly.co/us/about/careers",
+      "platform": "custom"
+    },
+    {
+      "name": "Worksome",
+      "careerUrl": "https://www.worksome.com/career",
+      "platform": "greenhouse"
+    },
+    {
+      "name": "Agreena",
+      "careerUrl": "https://careers.agreena.com/",
+      "platform": "teamtailor"
+    },
+    {
+      "name": "Uizard",
+      "careerUrl": "https://uizard.io/careers/",
+      "platform": "custom"
+    },
+    {
+      "name": "ViaBill",
+      "careerUrl": "https://jobs.lever.co/viabill",
+      "platform": "lever"
+    },
+    {
+      "name": "Veo",
+      "careerUrl": "https://www.veo.com/careers",
+      "platform": "custom"
+    },
+    {
+      "name": "SOUNDBOKS",
+      "careerUrl": "https://soundboks.recruitee.com/",
+      "platform": "recruitee"
+    },
+    {
+      "name": "Labster",
+      "careerUrl": "https://careers.labster.com/",
+      "platform": "teamtailor"
+    },
+    {
+      "name": "Umbraco",
+      "careerUrl": "https://umbraco.com/careers/",
+      "platform": "custom"
+    },
+    {
+      "name": "Keepit",
+      "careerUrl": "https://www.keepit.com/careers/",
+      "platform": "custom"
+    },
+    {
+      "name": "Dreamdata",
+      "careerUrl": "https://dreamdata.io/careers",
+      "platform": "custom"
+    },
+    {
+      "name": "Copenhagen Atomics",
+      "careerUrl": "https://www.copenhagenatomics.com/careers/",
+      "platform": "custom"
+    },
+    {
+      "name": "GomSpace",
+      "careerUrl": "https://gomspace.com/careers.aspx",
+      "platform": "custom"
+    },
+    {
+      "name": "Liva Healthcare",
+      "careerUrl": "https://www.livahealthcare.com/careers/",
+      "platform": "custom"
+    },
+    {
+      "name": "Morningscore",
+      "careerUrl": "https://www.morningscore.io/careers/",
+      "platform": "custom"
+    },
+    {
+      "name": "Princh",
+      "careerUrl": "https://princh.com/careers/",
+      "platform": "custom"
+    },
+    {
+      "name": "NORNORM",
+      "careerUrl": "https://careers.nornorm.com/jobs",
+      "platform": "teamtailor"
+    },
+    {
+      "name": "Nordcraft",
+      "careerUrl": "https://nordcraft.com/",
+      "platform": "custom"
+    },
+    {
+      "name": "Anyday",
+      "careerUrl": "https://www.anyday.io/career",
+      "platform": "custom"
+    },
+    {
+      "name": "Mono Solutions",
+      "careerUrl": "https://www.monosolutions.com/about-us/careers",
+      "platform": "custom"
+    },
+    {
+      "name": "21st.BIO",
+      "careerUrl": "https://21st.bio/career/",
+      "platform": "custom"
+    },
+    {
+      "name": "Trackunit",
+      "careerUrl": "https://careers.trackunit.com/jobs",
+      "platform": "teamtailor"
+    },
+    {
+      "name": "AutoProff",
+      "careerUrl": "https://career.autoproff.com/",
+      "platform": "teamtailor"
+    },
+    {
+      "name": "TwentyThree",
+      "careerUrl": "https://apply.workable.com/twentythree/",
+      "platform": "workable"
+    },
+    {
+      "name": "Butter",
+      "careerUrl": "https://careers.meetbutter.io/",
+      "platform": "teamtailor"
+    },
+    {
+      "name": "Sureshot",
+      "careerUrl": "https://sureshot.io/careers/",
+      "platform": "custom"
+    },
+    {
+      "name": "Neurons",
+      "careerUrl": "https://career.neuronsinc.com/jobs",
+      "platform": "teamtailor"
+    },
+    {
+      "name": "Interhuman AI",
+      "careerUrl": "https://www.interhuman.ai/",
+      "platform": "custom"
+    },
+    {
+      "name": "Alvenir",
+      "careerUrl": "https://alvenir.ai/",
+      "platform": "custom"
+    }
+  ]
+}
