@@ -14,6 +14,7 @@ const companiesList = document.getElementById('companies-list');
 
 // State
 let companies = [];
+let categories = [];
 let currentSearch = null;
 
 // Initialize
@@ -28,20 +29,36 @@ async function loadCompanies() {
     const response = await fetch('/api/companies');
     const data = await response.json();
     companies = data.companies;
+    categories = data.categories || [];
 
-    // Update company filter dropdown
+    // Update company filter dropdown with categories as optgroups
     companyFilter.innerHTML = '<option value="">All companies</option>';
-    companies.forEach(company => {
-      const option = document.createElement('option');
-      option.value = company.name;
-      option.textContent = company.name;
-      companyFilter.appendChild(option);
-    });
+
+    if (categories.length > 0) {
+      categories.forEach(category => {
+        const optgroup = document.createElement('optgroup');
+        optgroup.label = category.name;
+        category.companies.forEach(company => {
+          const option = document.createElement('option');
+          option.value = company.name;
+          option.textContent = company.name;
+          optgroup.appendChild(option);
+        });
+        companyFilter.appendChild(optgroup);
+      });
+    } else {
+      companies.forEach(company => {
+        const option = document.createElement('option');
+        option.value = company.name;
+        option.textContent = company.name;
+        companyFilter.appendChild(option);
+      });
+    }
 
     // Update count
-    companyCount.textContent = `${companies.length} companies`;
+    companyCount.textContent = `${companies.length} companies in ${categories.length} categories`;
 
-    // Render company cards
+    // Render company cards by category
     renderCompanies();
 
   } catch (error) {
@@ -50,13 +67,28 @@ async function loadCompanies() {
   }
 }
 
-// Render company cards
+// Render company cards by category
 function renderCompanies() {
-  companiesList.innerHTML = companies.map(company => `
-    <a href="${escapeHtml(company.careerUrl)}" target="_blank" rel="noopener" class="company-card">
-      ${escapeHtml(company.name)}
-    </a>
-  `).join('');
+  if (categories.length > 0) {
+    companiesList.innerHTML = categories.map(category => `
+      <div class="category-section">
+        <h3 class="category-title">${escapeHtml(category.name)}</h3>
+        <div class="category-companies">
+          ${category.companies.map(company => `
+            <a href="${escapeHtml(company.careerUrl)}" target="_blank" rel="noopener" class="company-card">
+              ${escapeHtml(company.name)}
+            </a>
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+  } else {
+    companiesList.innerHTML = companies.map(company => `
+      <a href="${escapeHtml(company.careerUrl)}" target="_blank" rel="noopener" class="company-card">
+        ${escapeHtml(company.name)}
+      </a>
+    `).join('');
+  }
 }
 
 // Handle search

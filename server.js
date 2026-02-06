@@ -9,24 +9,52 @@ const PORT = process.env.PORT || 3000;
 // Serve static files from public directory
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Load companies from sites.json
+// Load companies from sites.json (handles both flat and categorized formats)
 function loadCompanies() {
   const sitesPath = path.join(__dirname, 'sites.json');
   const data = fs.readFileSync(sitesPath, 'utf8');
-  return JSON.parse(data).companies;
+  const json = JSON.parse(data);
+
+  // Support categorized format
+  if (json.categories) {
+    const companies = [];
+    json.categories.forEach(category => {
+      category.companies.forEach(company => {
+        companies.push({
+          ...company,
+          category: category.name
+        });
+      });
+    });
+    return companies;
+  }
+
+  // Fallback to flat format
+  return json.companies;
+}
+
+// Load categories from sites.json
+function loadCategories() {
+  const sitesPath = path.join(__dirname, 'sites.json');
+  const data = fs.readFileSync(sitesPath, 'utf8');
+  const json = JSON.parse(data);
+  return json.categories || null;
 }
 
 // API: Get list of companies
 app.get('/api/companies', (req, res) => {
   try {
     const companies = loadCompanies();
+    const categories = loadCategories();
     res.json({
       count: companies.length,
       companies: companies.map(c => ({
         name: c.name,
         careerUrl: c.careerUrl,
-        platform: c.platform
-      }))
+        platform: c.platform,
+        category: c.category
+      })),
+      categories: categories
     });
   } catch (error) {
     res.status(500).json({ error: 'Failed to load companies' });

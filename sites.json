@@ -1,624 +1,704 @@
 {
-  "companies": [
+  "categories": [
+    {
+      "name": "Big Tech & International",
+      "companies": [
+        {
+          "name": "Ericsson Denmark",
+          "careerUrl": "https://jobs.ericsson.com/careers?page=1&jobPipeline=careersite&start=0&location=denmark&pid=563121773934695&sort_by=distance&filter_include_remote=1",
+          "platform": "custom"
+        },
+        {
+          "name": "Google Denmark",
+          "careerUrl": "https://www.google.com/about/careers/applications/locations/copenhagen/",
+          "platform": "custom"
+        },
+        {
+          "name": "IBM Denmark",
+          "careerUrl": "https://www.ibm.com/careers",
+          "platform": "custom"
+        },
+        {
+          "name": "Meta",
+          "careerUrl": "https://www.metacareers.com/locations/copenhagen/",
+          "platform": "custom"
+        },
+        {
+          "name": "Microsoft Denmark",
+          "careerUrl": "https://apply.careers.microsoft.com/careers?start=0&location=Denmark%2C+Capital+Region%2C+Copenhagen&pid=1970393556636543&sort_by=distance&filter_distance=160&filter_include_remote=1",
+          "platform": "custom"
+        },
+        {
+          "name": "Unity",
+          "careerUrl": "https://unity.com/careers/positions?location=copenhagen",
+          "platform": "custom"
+        },
+        {
+          "name": "Workday Denmark",
+          "careerUrl": "https://workday.wd5.myworkdayjobs.com/en-US/Workday",
+          "platform": "custom"
+        },
+        {
+          "name": "Zendesk",
+          "careerUrl": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk?locationCountry=49ab063f422741e2aef271de00efeac8",
+          "platform": "custom"
+        }
+      ]
+    },
+    {
+      "name": "Danish Unicorns & Scale-ups",
+      "companies": [
+        {
+          "name": "Corti",
+          "careerUrl": "https://www.corti.ai/jobs",
+          "platform": "ashby"
+        },
+        {
+          "name": "Dixa",
+          "careerUrl": "https://www.dixa.com/careers/",
+          "platform": "custom"
+        },
+        {
+          "name": "Lunar",
+          "careerUrl": "https://jobs.lunar.app/jobs",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "Pleo",
+          "careerUrl": "https://www.pleo.io/en/careers/jobs",
+          "platform": "custom"
+        },
+        {
+          "name": "Podimo",
+          "careerUrl": "https://careers.podimo.com/jobs",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "Templafy",
+          "careerUrl": "https://www.templafy.com/home/about-us/careers/career-opportunities/",
+          "platform": "greenhouse"
+        },
+        {
+          "name": "Too Good To Go",
+          "careerUrl": "https://www.toogoodtogo.com/careers#open-roles",
+          "platform": "custom"
+        },
+        {
+          "name": "Tradeshift",
+          "careerUrl": "https://careers.smartrecruiters.com/Tradeshift",
+          "platform": "custom"
+        },
+        {
+          "name": "Trustpilot",
+          "careerUrl": "https://corporate.trustpilot.com/careers#jobs",
+          "platform": "custom"
+        },
+        {
+          "name": "Vivino",
+          "careerUrl": "https://careers.vivino.com/jobs",
+          "platform": "custom"
+        }
+      ]
+    },
     {
-      "name": "Novo Nordisk",
-      "careerUrl": "https://www.novonordisk.com/careers/find-a-job/career-search-results.html?searchText=&countries=Denmark%3BUnited+States%3BChina+Mainland%3BArgentina%3BAustralia%3BAzerbaijan%3BBelgium%3BBrazil%3BCanada%3BCzech+Republic%3BEstonia%3BFinland%3BFrance%3BGermany%3BHong+Kong%3BIndia%3BIndonesia%3BIsrael%3BJapan%3BJordan%3BKenya%3BLithuania%3BMalaysia%3BMexico%3BPakistan%3BPanama%3BPhilippines%3BPoland%3BPortugal%3BRomania%3BSaudi+Arabia%3BSouth+Africa%3BSouth+Korea%3BSpain%3BSweden%3BSwitzerland%3BTaiwan%3BTurkey%3BUnited+Kingdom%3BVietnam&categories=Business+Support+%26+Administration%3BClinical+Development%3BCommercial+Marketing%3BData+%26+AI%3BDigital+%26+IT%3BEducation%3BEngineering+%26+Technical%3BHuman+Resource+Management%3BManufacturing%3BMedical+Affairs%3BProcurement%3BProject+Management+%26+Agile%3BQuality%3BReg+Affairs+%26+Safety+Pharmacovigilance%3BResearch%3BBusiness+Development+%26+Strategy%3BCorporate+Affairs%3BLegal%2C+Compliance+%26+Audit%3BSales%3BSupply+Chain%3BFinance%3BMarket+Access", 
-      "platform": "custom"
-    },
-    {
-      "name": "Maersk",
-      "careerUrl": "https://www.maersk.com/careers/vacancies", 
-      "platform": "custom"
-    },
-    {
-      "name": "LEGO",
-      "careerUrl": "https://www.lego.com/en-us/careers/search",
-      "platform": "custom"
-    },
-    {
-      "name": "Vestas",
-      "careerUrl": "https://careers.vestas.com/search/",
-      "platform": "custom"
-    },
-    {
-      "name": "Carlsberg",
-      "careerUrl": "https://careers.carlsberg.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield3=&optionsFacetsDD_customfield2=",
-      "platform": "custom"
-    },
-    {
-      "name": "Orsted",
-      "careerUrl": "https://orsted.com/en/careers/vacancies-list#s",
-      "platform": "custom"
-    },
-    {
-      "name": "Unity",
-      "careerUrl": "https://unity.com/careers/positions?location=copenhagen",
-      "platform": "custom"
-    },
-    {
-      "name": "Pleo",
-      "careerUrl": "https://www.pleo.io/en/careers/jobs",
-      "platform": "custom"
-    },
-    {
-      "name": "Trustpilot",
-      "careerUrl": "https://corporate.trustpilot.com/careers#jobs",
-      "platform": "custom"
-    },
-    {
-      "name": "Zendesk",
-      "careerUrl": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk?locationCountry=49ab063f422741e2aef271de00efeac8",
-      "platform": "custom"
-    },
-    {
-      "name": "Lunar",
-      "careerUrl": "https://jobs.lunar.app/jobs",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "Too Good To Go",
-      "careerUrl": "https://www.toogoodtogo.com/careers#open-roles",
-      "platform": "custom"
-    },
-    {
-      "name": "Corti",
-      "careerUrl": "https://www.corti.ai/jobs",
-      "platform": "ashby"
-    },
-    {
-      "name": "Templafy",
-      "careerUrl": "https://www.templafy.com/home/about-us/careers/career-opportunities/",
-      "platform": "greenhouse"
-    },
-    {
-      "name": "Podimo",
-      "careerUrl": "https://careers.podimo.com/jobs",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "Dixa",
-      "careerUrl": "https://www.dixa.com/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "Leapwork",
-      "careerUrl": "https://job-boards.eu.greenhouse.io/leapwork",
-      "platform": "greenhouse"
-    },
-    {
-      "name": "Planday",
-      "careerUrl": "https://apply.workable.com/planday/",
-      "platform": "workable"
-    },
-    {
-      "name": "Airtame",
-      "careerUrl": "https://airtame.com/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "Siteimprove",
-      "careerUrl": "https://careers.siteimprove.com/open-positions/",
-      "platform": "custom"
-    },
-    {
-      "name": "Monta",
-      "careerUrl": "https://careers.monta.com/jobs",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "Famly",
-      "careerUrl": "https://famly.recruitee.com/",
-      "platform": "recruitee"
-    },
-    {
-      "name": "Worksome",
-      "careerUrl": "https://www.worksome.com/career",
-      "platform": "greenhouse"
-    },
-    {
-      "name": "Agreena",
-      "careerUrl": "https://jobs.ashbyhq.com/agreena",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "Uizard",
-      "careerUrl": "https://uizard.io/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "ViaBill",
-      "careerUrl": "https://jobs.lever.co/viabill",
-      "platform": "lever"
-    },
-    {
-      "name": "Veo",
-      "careerUrl": "https://jobs.lever.co/veo",
-      "platform": "lever"
-    },
-    {
-      "name": "SOUNDBOKS",
-      "careerUrl": "https://soundboks.recruitee.com/",
-      "platform": "recruitee"
-    },
-    {
-      "name": "Labster",
-      "careerUrl": "https://careers.labster.com/",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "Umbraco",
-      "careerUrl": "https://umbraco.com/work-at-umbraco/job-openings/",
-      "platform": "custom"
-    },
-    {
-      "name": "Keepit",
-      "careerUrl": "https://www.keepit.com/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "Dreamdata",
-      "careerUrl": "https://apply.workable.com/dreamdata/#jobs",
-      "platform": "workable"
-    },
-    {
-      "name": "Copenhagen Atomics",
-      "careerUrl": "https://www.copenhagenatomics.com/jobs/",
-      "platform": "custom"
-    },
-    {
-      "name": "GomSpace",
-      "careerUrl": "https://gomspace.com/open-positions/",
-      "platform": "custom"
-    },
-    {
-      "name": "Liva Healthcare",
-      "careerUrl": "https://www.livahealthcare.com/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "Morningscore",
-      "careerUrl": "https://www.morningscore.io/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "Princh",
-      "careerUrl": "https://princh.com/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "NORNORM",
-      "careerUrl": "https://careers.nornorm.com/jobs",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "Nordcraft",
-      "careerUrl": "https://nordcraft.com/",
-      "platform": "custom"
-    },
-    {
-      "name": "Anyday",
-      "careerUrl": "https://www.anyday.io/career#Jobs",
-      "platform": "custom"
-    },
-    {
-      "name": "Mono Solutions",
-      "careerUrl": "https://www.monosolutions.com/about-us/careers",
-      "platform": "custom"
-    },
-    {
-      "name": "21st.BIO",
-      "careerUrl": "https://21st.bio/career/",
-      "platform": "custom"
-    },
-    {
-      "name": "Trackunit",
-      "careerUrl": "https://careers.trackunit.com/jobs",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "AutoProff",
-      "careerUrl": "https://www.autoproff.dk/jobs#ap-job-board-container",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "TwentyThree",
-      "careerUrl": "https://apply.workable.com/twentythree/",
-      "platform": "workable"
-    },
-    {
-      "name": "Butter",
-      "careerUrl": "https://careers.meetbutter.io/",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "Sureshot",
-      "careerUrl": "https://sureshot.io/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "Neurons",
-      "careerUrl": "https://career.neuronsinc.com/jobs",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "Interhuman AI",
-      "careerUrl": "https://www.interhuman.ai/",
-      "platform": "custom"
-    },
-    {
-      "name": "Alvenir",
-      "careerUrl": "https://alvenir.ai/",
-      "platform": "custom"
-    },
-    {
-      "name": "Microsoft Denmark",
-      "careerUrl": "https://apply.careers.microsoft.com/careers?start=0&location=Denmark%2C+Capital+Region%2C+Copenhagen&pid=1970393556636543&sort_by=distance&filter_distance=160&filter_include_remote=1",
-      "platform": "custom"
-    },
-    {
-      "name": "Google Denmark",
-      "careerUrl": "https://www.google.com/about/careers/applications/locations/copenhagen/",
-      "platform": "custom"
-    },
-    {
-      "name": "Meta",
-      "careerUrl": "https://www.metacareers.com/locations/copenhagen/",
-      "platform": "custom"
-    },
-    {
-      "name": "Flatpay",
-      "careerUrl": "https://flatpay.jobs.personio.com/",
-      "platform": "custom"
-    },
-    {
-      "name": "Vivino",
-      "careerUrl": "https://careers.vivino.com/jobs",
-      "platform": "custom"
-    },
-    {
-      "name": "Tradeshift",
-      "careerUrl": "https://careers.smartrecruiters.com/Tradeshift",
-      "platform": "custom"
-    },
-    {
-      "name": "Signifly",
-      "careerUrl": "https://signifly.recruitee.com/",
-      "platform": "recruitee"
-    },
-    {
-      "name": "Coloplast",
-      "careerUrl": "https://careers.coloplast.com/search/?createNewAlert=false&q=&locationsearch=denmark&optionsFacetsDD_customfield1=&optionsFacetsDD_country=&optionsFacetsDD_shifttype=",
-      "platform": "custom"
-    },
-    {
-      "name": "Designit",
-      "careerUrl": "https://careers.wipro.com/go/DesignIt/9470555/",
-      "platform": "custom"
-    },
-    {
-      "name": "DEPT",
-      "careerUrl": "https://www.deptagency.com/en-dk/careers/roles/?country=denmark",
-      "platform": "custom"
-    },
-    {
-      "name": "Framna",
-      "careerUrl": "https://framna.com/careers",
-      "platform": "custom"
-    },
-    {
-      "name": "1508",
-      "careerUrl": "https://1508.dk/",
-      "platform": "custom"
-    },
-    {
-      "name": "Danske Bank",
-      "careerUrl": "https://ejqi.fa.ocs.oraclecloud.eu/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?location=Copenhagen+K%2C+Denmark&locationId=300000050630065&locationLevel=city&mode=location&radius=25&radiusUnit=MI",
-      "platform": "custom"
-    },
-    {
-      "name": "Saxo Bank",
-      "careerUrl": "https://www.home.saxo/about-us/careers",
-      "platform": "custom"
-    },
-    {
-      "name": "Boozt",
-      "careerUrl": "https://careers.booztgroup.com/jobs",
-      "platform": "custom"
-    },
-    {
-      "name": "Trifork",
-      "careerUrl": "https://trifork.com/join/job-openings/",
-      "platform": "custom"
-    },
-    {
-      "name": "Netcompany",
-      "careerUrl": "https://netcompany.com/careers/vacancies/",
-      "platform": "custom"
-    },
-    {
-      "name": "Zetland",
-      "careerUrl": "https://www.zetland.dk/aboutzetland",
-      "platform": "custom"
-    },
-    {
-      "name": "e-conomic (Visma)",
-      "careerUrl": "https://career.e-conomic.com/jobs",
-      "platform": "custom"
-    },
-    {
-      "name": "SimCorp",
-      "careerUrl": "https://simcorp.wd3.myworkdayjobs.com/en-US/SimCorp_Jobs/?locationCountry=49ab063f422741e2aef271de00efeac8",
-      "platform": "custom"
-    },
-    {
-      "name": "Cardlay",
-      "careerUrl": "https://cardlay.com/about",
-      "platform": "custom"
-    },
-    {
-      "name": "Shine",
-      "careerUrl": "https://careers.shine.co/#jobs",
-      "platform": "custom"
-    },
-    {
-      "name": "Clearhaus",
-      "careerUrl": "https://www.clearhaus.com/about/",
-      "platform": "custom"
-    },
-    {
-      "name": "Gehl",
-      "careerUrl": "https://www.gehlpeople.com/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "Henning Larsen",
-      "careerUrl": "https://henninglarsen.com/careers",
-      "platform": "custom"
-    },
-    {
-      "name": "IO Interactive",
-      "careerUrl": "https://ioi.dk/careers",
-      "platform": "custom"
-    },
-    {
-      "name": "SYBO Games",
-      "careerUrl": "https://sybo.teamtailor.com/jobs",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "Tactile Games",
-      "careerUrl": "https://tactilegames.com/careers/",
-      "platform": "greenhouse"
-    },
-    {
-      "name": "Ghost Ship Games",
-      "careerUrl": "https://jobs.ghostship.dk/",
-      "platform": "custom"
-    },
-    {
-      "name": "BetaDwarf",
-      "careerUrl": "https://betadwarf.com/career",
-      "platform": "custom"
-    },
-    {
-      "name": "Nordea",
-      "careerUrl": "https://www.nordea.com/en/careers/vacant-positions",
-      "platform": "custom"
-    },
-    {
-      "name": "Universal Robots",
-      "careerUrl": "https://jobs.teradyne.com/search/?q=&q2=&alertId=&title=&location=DK&department=&facility=#searchresults",
-      "platform": "custom"
-    },
-    {
-      "name": "MiR (Mobile Industrial Robots)",
-      "careerUrl": "https://jobs.teradyne.com/search/?q=&q2=&alertId=&title=&location=DK&department=&facility=#searchresults",
-      "platform": "custom"
-    },
-    {
-      "name": "LEO Pharma",
-      "careerUrl": "https://jobs.leo-pharma.com/search/?createNewAlert=false&q=&locationsearch=denmark&optionsFacetsDD_department=&optionsFacetsDD_city=&optionsFacetsDD_customfield3=",
-      "platform": "custom"
-    },
-    {
-      "name": "Lundbeck",
-      "careerUrl": "https://www.lundbeck.com/global/careers/your-job/job-opportunities",
-      "platform": "custom"
-    },
-    {
-      "name": "Genmab",
-      "careerUrl": "https://careers.genmab.com/global/en/search-results/",
-      "platform": "custom"
-    },
-    {
-      "name": "Bavarian Nordic",
-      "careerUrl": "https://bavariannordic.wd103.myworkdayjobs.com/en-US/BavarianNordic",
-      "platform": "custom"
-    },
-    {
-      "name": "Wolt Denmark",
-      "careerUrl": "https://careers.wolt.com/en/locations/denmark",
-      "platform": "custom"
-    },
-    {
-      "name": "Just Eat Takeaway",
-      "careerUrl": "https://careers.justeattakeaway.com/global/en/denmark",
-      "platform": "custom"
-    },
-    {
-      "name": "Workday Denmark",
-      "careerUrl": "https://workday.wd5.myworkdayjobs.com/en-US/Workday",
-      "platform": "custom"
-    },
-    {
-      "name": "3Shape",
-      "careerUrl": "https://careers.3shape.com/jobs",
-      "platform": "custom"
-    },
-    {
-      "name": "Brandwatch (Falcon.io)",
-      "careerUrl": "https://www.brandwatch.com/company/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "Kontrapunkt",
-      "careerUrl": "https://kontrapunkt.com/career",
-      "platform": "custom"
-    },
-    {
-      "name": "Kruso",
-      "careerUrl": "https://kruso.dk/en/join-us/",
-      "platform": "custom"
-    },
-    {
-      "name": "GreenMobility",
-      "careerUrl": "https://www.greenmobility.com/dk/da/jobs/",
-      "platform": "custom"
-    },
-    {
-      "name": "Milestone Systems",
-      "careerUrl": "https://fa-ewto-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?location=Copenhagen%2C+Denmark&locationId=300000004078017&locationLevel=state&mode=location",
-      "platform": "custom"
-    },
-    {
-      "name": "Configit",
-      "careerUrl": "https://configit.com/about/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "DFDS",
-      "careerUrl": "https://dfdsdenmark.teamtailor.com/jobs",
-      "platform": "teamtailor"
-    },
-    {
-      "name": "ISS",
-      "careerUrl": "https://jobs.issworld.com/search/?createNewAlert=false&q=&locationsearch=denmark&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield2=&optionsFacetsDD_country=",
-      "platform": "custom"
-    },
-    {
-      "name": "Demant (Oticon)",
-      "careerUrl": "https://careers.demant.com/search/?createNewAlert=false&q=denmark&optionsFacetsDD_customfield3=&optionsFacetsDD_customfield4=&optionsFacetsDD_customfield5=",
-      "platform": "custom"
-    },
-    {
-      "name": "Danfoss",
-      "careerUrl": "https://jobs.danfoss.com/search/?searchResultView=LIST&locationsearch=denmark&pageNumber=0&facetFilters=%7B%7D&sortBy=&markerViewed=&carouselIndex=",
-      "platform": "custom"
-    },
-    {
-      "name": "Grundfos",
-      "careerUrl": "https://jobs.grundfos.com/search/?q=&locale=en_GB&searchResultView=LIST&markerViewed=&carouselIndex=&facetFilters=%7B%22jobLocationCountry%22%3A%5B%22Denmark%22%5D%7D&pageNumber=0&utm_source=CorpSite&utm_campaign=corp_dk_header_alljobslink&sortBy=date",
-      "platform": "custom"
-    },
-    {
-      "name": "DSV",
-      "careerUrl": "https://www.dsv.com/en/careers?CountryCode=DK&q=%2A",
-      "platform": "custom"
-    },
-    {
-      "name": "Novozymes (now Novonesis)",
-      "careerUrl": "https://www.novonesis.com/en/careers/jobs?country=Denmark",
-      "platform": "custom"
-    },
-    {
-      "name": "Pandora",
-      "careerUrl": "https://careers.pandoragroup.com/search/?createNewAlert=false&q=&locationsearch=copenhagen",
-      "platform": "custom"
-    },
-    {
-      "name": "Bang & Olufsen",
-      "careerUrl": "https://career5.successfactors.eu/career?company=bangolufse&career%5fns=job%5flisting%5fsummary&navBarLevel=JOB%5fSEARCH&_s.crb=z%2baPIXsVLbs%2fjPKvnKpehWeFSacvgfw4x7K0scqBPQA%3d",
-      "platform": "custom"
-    },
-    {
-      "name": "Ericsson Denmark",
-      "careerUrl": "https://jobs.ericsson.com/careers?page=1&jobPipeline=careersite&start=0&location=denmark&pid=563121773934695&sort_by=distance&filter_include_remote=1",
-      "platform": "custom"
-    },
-    {
-      "name": "IBM Denmark",
-      "careerUrl": "https://www.ibm.com/careers",
-      "platform": "custom"
-    },
-    {
-      "name": "HelloFresh Nordic",
-      "careerUrl": "https://www.hellofreshgroup.com/en/careers/",
-      "platform": "custom"
-    },
-    {
-      "name": "Sitecore",
-      "careerUrl": "https://www.sitecore.com/company/careers",
-      "platform": "custom"
-    },
-    {
-      "name": "Radiobotics",
-      "careerUrl": "https://www.radiobotics.com/careers",
-      "platform": "custom"
-    },
-    {
-      "name": "Modl.ai",
-      "careerUrl": "https://modl.ai/company",
-      "platform": "custom"
-    },
-    {
-      "name": "Trustworks",
-      "careerUrl": "https://www.trustworks.dk/about-us/team-up/",
-      "platform": "custom"
-    },
-    {
-      "name": "Valtech Denmark",
-      "careerUrl": "https://www.valtech.com/en-dk/career/joblist/?country=denmark",
-      "platform": "custom"
-    },
-    {
-      "name": "Peytz & Co",
-      "careerUrl": "https://www.peytz.dk/karriere/",
-      "platform": "custom"
-    },
-    {
-      "name": "Globant",
-      "careerUrl": "https://career.globant.com/?country=DK",
-      "platform": "custom"
-    },
-    {
-      "name": "Implement Consulting",
-      "careerUrl": "https://implementconsultinggroup.com/join-us/jobs",
-      "platform": "custom"
-    },
-    {
-      "name": "Ramboll",
-      "careerUrl": "https://ramboll.com/careers",
-      "platform": "custom"
-    },
-    {
-      "name": "COWI",
-      "careerUrl": "https://www.cowi.com/your-career/open-vacancies/?page=0&country=Denmark",
-      "platform": "custom"
-    },
-    {
-      "name": "Sweco Denmark",
-      "careerUrl": "https://www.swecogroup.com/careers/vacancies/?scroll-to=vacancies-top&country=4",
-      "platform": "custom"
-    },
-    {
-      "name": "Better Collective",
-      "careerUrl": "https://bettercollective.recruitee.com/better-collective-open-positions?jobs-d0e9028b%5Btab%5D=DK",
-      "platform": "custom"
-    },
-    {
-      "name": "TV 2 Denmark",
-      "careerUrl": "https://omtv2.tv2.dk/job/ledige-stillinger-paa-tv-2/",
-      "platform": "custom"
-    },
-    {
-      "name": "DR (Danish Broadcasting)",
-      "careerUrl": "https://www.dr.dk/om-dr/job",
-      "platform": "custom"
-    },
-    {
-      "name": "JP/Politikens Hus",
-      "careerUrl": "https://jppol.dk/karriere/",
-      "platform": "custom"
+      "name": "Fintech & Banking",
+      "companies": [
+        {
+          "name": "Anyday",
+          "careerUrl": "https://www.anyday.io/career#Jobs",
+          "platform": "custom"
+        },
+        {
+          "name": "Cardlay",
+          "careerUrl": "https://cardlay.com/about",
+          "platform": "custom"
+        },
+        {
+          "name": "Clearhaus",
+          "careerUrl": "https://www.clearhaus.com/about/",
+          "platform": "custom"
+        },
+        {
+          "name": "Danske Bank",
+          "careerUrl": "https://ejqi.fa.ocs.oraclecloud.eu/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?location=Copenhagen+K%2C+Denmark&locationId=300000050630065&locationLevel=city&mode=location&radius=25&radiusUnit=MI",
+          "platform": "custom"
+        },
+        {
+          "name": "Flatpay",
+          "careerUrl": "https://flatpay.jobs.personio.com/",
+          "platform": "custom"
+        },
+        {
+          "name": "Nordea",
+          "careerUrl": "https://www.nordea.com/en/careers/vacant-positions",
+          "platform": "custom"
+        },
+        {
+          "name": "Saxo Bank",
+          "careerUrl": "https://www.home.saxo/about-us/careers",
+          "platform": "custom"
+        },
+        {
+          "name": "SimCorp",
+          "careerUrl": "https://simcorp.wd3.myworkdayjobs.com/en-US/SimCorp_Jobs/?locationCountry=49ab063f422741e2aef271de00efeac8",
+          "platform": "custom"
+        },
+        {
+          "name": "ViaBill",
+          "careerUrl": "https://jobs.lever.co/viabill",
+          "platform": "lever"
+        }
+      ]
+    },
+    {
+      "name": "SaaS & Enterprise Software",
+      "companies": [
+        {
+          "name": "Airtame",
+          "careerUrl": "https://airtame.com/careers/",
+          "platform": "custom"
+        },
+        {
+          "name": "Brandwatch (Falcon.io)",
+          "careerUrl": "https://www.brandwatch.com/company/careers/",
+          "platform": "custom"
+        },
+        {
+          "name": "Butter",
+          "careerUrl": "https://careers.meetbutter.io/",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "Configit",
+          "careerUrl": "https://configit.com/about/careers/",
+          "platform": "custom"
+        },
+        {
+          "name": "Dreamdata",
+          "careerUrl": "https://apply.workable.com/dreamdata/#jobs",
+          "platform": "workable"
+        },
+        {
+          "name": "e-conomic (Visma)",
+          "careerUrl": "https://career.e-conomic.com/jobs",
+          "platform": "custom"
+        },
+        {
+          "name": "Famly",
+          "careerUrl": "https://famly.recruitee.com/",
+          "platform": "recruitee"
+        },
+        {
+          "name": "Keepit",
+          "careerUrl": "https://www.keepit.com/careers/",
+          "platform": "custom"
+        },
+        {
+          "name": "Leapwork",
+          "careerUrl": "https://job-boards.eu.greenhouse.io/leapwork",
+          "platform": "greenhouse"
+        },
+        {
+          "name": "Mono Solutions",
+          "careerUrl": "https://www.monosolutions.com/about-us/careers",
+          "platform": "custom"
+        },
+        {
+          "name": "Morningscore",
+          "careerUrl": "https://www.morningscore.io/careers/",
+          "platform": "custom"
+        },
+        {
+          "name": "Planday",
+          "careerUrl": "https://apply.workable.com/planday/",
+          "platform": "workable"
+        },
+        {
+          "name": "Princh",
+          "careerUrl": "https://princh.com/careers/",
+          "platform": "custom"
+        },
+        {
+          "name": "Shine",
+          "careerUrl": "https://careers.shine.co/#jobs",
+          "platform": "custom"
+        },
+        {
+          "name": "Sitecore",
+          "careerUrl": "https://www.sitecore.com/company/careers",
+          "platform": "custom"
+        },
+        {
+          "name": "Siteimprove",
+          "careerUrl": "https://careers.siteimprove.com/open-positions/",
+          "platform": "custom"
+        },
+        {
+          "name": "Sureshot",
+          "careerUrl": "https://sureshot.io/careers/",
+          "platform": "custom"
+        },
+        {
+          "name": "Trackunit",
+          "careerUrl": "https://careers.trackunit.com/jobs",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "TwentyThree",
+          "careerUrl": "https://apply.workable.com/twentythree/",
+          "platform": "workable"
+        },
+        {
+          "name": "Umbraco",
+          "careerUrl": "https://umbraco.com/work-at-umbraco/job-openings/",
+          "platform": "custom"
+        },
+        {
+          "name": "Worksome",
+          "careerUrl": "https://www.worksome.com/career",
+          "platform": "greenhouse"
+        }
+      ]
+    },
+    {
+      "name": "AI & Deep Tech",
+      "companies": [
+        {
+          "name": "Alvenir",
+          "careerUrl": "https://alvenir.ai/",
+          "platform": "custom"
+        },
+        {
+          "name": "Interhuman AI",
+          "careerUrl": "https://www.interhuman.ai/",
+          "platform": "custom"
+        },
+        {
+          "name": "Modl.ai",
+          "careerUrl": "https://modl.ai/company",
+          "platform": "custom"
+        },
+        {
+          "name": "Neurons",
+          "careerUrl": "https://career.neuronsinc.com/jobs",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "Nordcraft",
+          "careerUrl": "https://nordcraft.com/",
+          "platform": "custom"
+        },
+        {
+          "name": "Uizard",
+          "careerUrl": "https://uizard.io/careers/",
+          "platform": "custom"
+        }
+      ]
+    },
+    {
+      "name": "Gaming & Entertainment",
+      "companies": [
+        {
+          "name": "BetaDwarf",
+          "careerUrl": "https://betadwarf.com/career",
+          "platform": "custom"
+        },
+        {
+          "name": "Better Collective",
+          "careerUrl": "https://bettercollective.recruitee.com/better-collective-open-positions?jobs-d0e9028b%5Btab%5D=DK",
+          "platform": "custom"
+        },
+        {
+          "name": "Ghost Ship Games",
+          "careerUrl": "https://jobs.ghostship.dk/",
+          "platform": "custom"
+        },
+        {
+          "name": "IO Interactive",
+          "careerUrl": "https://ioi.dk/careers",
+          "platform": "custom"
+        },
+        {
+          "name": "SYBO Games",
+          "careerUrl": "https://sybo.teamtailor.com/jobs",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "Tactile Games",
+          "careerUrl": "https://tactilegames.com/careers/",
+          "platform": "greenhouse"
+        }
+      ]
+    },
+    {
+      "name": "Pharma & Biotech",
+      "companies": [
+        {
+          "name": "21st.BIO",
+          "careerUrl": "https://21st.bio/career/",
+          "platform": "custom"
+        },
+        {
+          "name": "Bavarian Nordic",
+          "careerUrl": "https://bavariannordic.wd103.myworkdayjobs.com/en-US/BavarianNordic",
+          "platform": "custom"
+        },
+        {
+          "name": "Genmab",
+          "careerUrl": "https://careers.genmab.com/global/en/search-results/",
+          "platform": "custom"
+        },
+        {
+          "name": "LEO Pharma",
+          "careerUrl": "https://jobs.leo-pharma.com/search/?createNewAlert=false&q=&locationsearch=denmark&optionsFacetsDD_department=&optionsFacetsDD_city=&optionsFacetsDD_customfield3=",
+          "platform": "custom"
+        },
+        {
+          "name": "Lundbeck",
+          "careerUrl": "https://www.lundbeck.com/global/careers/your-job/job-opportunities",
+          "platform": "custom"
+        },
+        {
+          "name": "Novo Nordisk",
+          "careerUrl": "https://www.novonordisk.com/careers/find-a-job/career-search-results.html?searchText=&countries=Denmark%3BUnited+States%3BChina+Mainland%3BArgentina%3BAustralia%3BAzerbaijan%3BBelgium%3BBrazil%3BCanada%3BCzech+Republic%3BEstonia%3BFinland%3BFrance%3BGermany%3BHong+Kong%3BIndia%3BIndonesia%3BIsrael%3BJapan%3BJordan%3BKenya%3BLithuania%3BMalaysia%3BMexico%3BPakistan%3BPanama%3BPhilippines%3BPoland%3BPortugal%3BRomania%3BSaudi+Arabia%3BSouth+Africa%3BSouth+Korea%3BSpain%3BSweden%3BSwitzerland%3BTaiwan%3BTurkey%3BUnited+Kingdom%3BVietnam&categories=Business+Support+%26+Administration%3BClinical+Development%3BCommercial+Marketing%3BData+%26+AI%3BDigital+%26+IT%3BEducation%3BEngineering+%26+Technical%3BHuman+Resource+Management%3BManufacturing%3BMedical+Affairs%3BProcurement%3BProject+Management+%26+Agile%3BQuality%3BReg+Affairs+%26+Safety+Pharmacovigilance%3BResearch%3BBusiness+Development+%26+Strategy%3BCorporate+Affairs%3BLegal%2C+Compliance+%26+Audit%3BSales%3BSupply+Chain%3BFinance%3BMarket+Access",
+          "platform": "custom"
+        },
+        {
+          "name": "Novozymes (now Novonesis)",
+          "careerUrl": "https://www.novonesis.com/en/careers/jobs?country=Denmark",
+          "platform": "custom"
+        }
+      ]
+    },
+    {
+      "name": "Healthtech & Medtech",
+      "companies": [
+        {
+          "name": "3Shape",
+          "careerUrl": "https://careers.3shape.com/jobs",
+          "platform": "custom"
+        },
+        {
+          "name": "Coloplast",
+          "careerUrl": "https://careers.coloplast.com/search/?createNewAlert=false&q=&locationsearch=denmark&optionsFacetsDD_customfield1=&optionsFacetsDD_country=&optionsFacetsDD_shifttype=",
+          "platform": "custom"
+        },
+        {
+          "name": "Demant (Oticon)",
+          "careerUrl": "https://careers.demant.com/search/?createNewAlert=false&q=denmark&optionsFacetsDD_customfield3=&optionsFacetsDD_customfield4=&optionsFacetsDD_customfield5=",
+          "platform": "custom"
+        },
+        {
+          "name": "Labster",
+          "careerUrl": "https://careers.labster.com/",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "Liva Healthcare",
+          "careerUrl": "https://www.livahealthcare.com/careers/",
+          "platform": "custom"
+        },
+        {
+          "name": "Radiobotics",
+          "careerUrl": "https://www.radiobotics.com/careers",
+          "platform": "custom"
+        }
+      ]
+    },
+    {
+      "name": "Cleantech & Energy",
+      "companies": [
+        {
+          "name": "Agreena",
+          "careerUrl": "https://jobs.ashbyhq.com/agreena",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "Copenhagen Atomics",
+          "careerUrl": "https://www.copenhagenatomics.com/jobs/",
+          "platform": "custom"
+        },
+        {
+          "name": "GreenMobility",
+          "careerUrl": "https://www.greenmobility.com/dk/da/jobs/",
+          "platform": "custom"
+        },
+        {
+          "name": "Monta",
+          "careerUrl": "https://careers.monta.com/jobs",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "Orsted",
+          "careerUrl": "https://orsted.com/en/careers/vacancies-list#s",
+          "platform": "custom"
+        },
+        {
+          "name": "Vestas",
+          "careerUrl": "https://careers.vestas.com/search/",
+          "platform": "custom"
+        }
+      ]
+    },
+    {
+      "name": "Robotics & Hardware",
+      "companies": [
+        {
+          "name": "Bang & Olufsen",
+          "careerUrl": "https://career5.successfactors.eu/career?company=bangolufse&career%5fns=job%5flisting%5fsummary&navBarLevel=JOB%5fSEARCH&_s.crb=z%2baPIXsVLbs%2fjPKvnKpehWeFSacvgfw4x7K0scqBPQA%3d",
+          "platform": "custom"
+        },
+        {
+          "name": "GomSpace",
+          "careerUrl": "https://gomspace.com/open-positions/",
+          "platform": "custom"
+        },
+        {
+          "name": "MiR (Mobile Industrial Robots)",
+          "careerUrl": "https://jobs.teradyne.com/search/?q=&q2=&alertId=&title=&location=DK&department=&facility=#searchresults",
+          "platform": "custom"
+        },
+        {
+          "name": "SOUNDBOKS",
+          "careerUrl": "https://soundboks.recruitee.com/",
+          "platform": "recruitee"
+        },
+        {
+          "name": "Universal Robots",
+          "careerUrl": "https://jobs.teradyne.com/search/?q=&q2=&alertId=&title=&location=DK&department=&facility=#searchresults",
+          "platform": "custom"
+        },
+        {
+          "name": "Veo",
+          "careerUrl": "https://jobs.lever.co/veo",
+          "platform": "lever"
+        }
+      ]
+    },
+    {
+      "name": "Design & Digital Agencies",
+      "companies": [
+        {
+          "name": "1508",
+          "careerUrl": "https://1508.dk/",
+          "platform": "custom"
+        },
+        {
+          "name": "DEPT",
+          "careerUrl": "https://www.deptagency.com/en-dk/careers/roles/?country=denmark",
+          "platform": "custom"
+        },
+        {
+          "name": "Designit",
+          "careerUrl": "https://careers.wipro.com/go/DesignIt/9470555/",
+          "platform": "custom"
+        },
+        {
+          "name": "Framna",
+          "careerUrl": "https://framna.com/careers",
+          "platform": "custom"
+        },
+        {
+          "name": "Gehl",
+          "careerUrl": "https://www.gehlpeople.com/careers/",
+          "platform": "custom"
+        },
+        {
+          "name": "Henning Larsen",
+          "careerUrl": "https://henninglarsen.com/careers",
+          "platform": "custom"
+        },
+        {
+          "name": "Kontrapunkt",
+          "careerUrl": "https://kontrapunkt.com/career",
+          "platform": "custom"
+        },
+        {
+          "name": "Kruso",
+          "careerUrl": "https://kruso.dk/en/join-us/",
+          "platform": "custom"
+        },
+        {
+          "name": "Peytz & Co",
+          "careerUrl": "https://www.peytz.dk/karriere/",
+          "platform": "custom"
+        },
+        {
+          "name": "Signifly",
+          "careerUrl": "https://signifly.recruitee.com/",
+          "platform": "recruitee"
+        },
+        {
+          "name": "Trustworks",
+          "careerUrl": "https://www.trustworks.dk/about-us/team-up/",
+          "platform": "custom"
+        },
+        {
+          "name": "Valtech Denmark",
+          "careerUrl": "https://www.valtech.com/en-dk/career/joblist/?country=denmark",
+          "platform": "custom"
+        }
+      ]
+    },
+    {
+      "name": "IT Consulting & Services",
+      "companies": [
+        {
+          "name": "Globant",
+          "careerUrl": "https://career.globant.com/?country=DK",
+          "platform": "custom"
+        },
+        {
+          "name": "Implement Consulting",
+          "careerUrl": "https://implementconsultinggroup.com/join-us/jobs",
+          "platform": "custom"
+        },
+        {
+          "name": "Netcompany",
+          "careerUrl": "https://netcompany.com/careers/vacancies/",
+          "platform": "custom"
+        },
+        {
+          "name": "Trifork",
+          "careerUrl": "https://trifork.com/join/job-openings/",
+          "platform": "custom"
+        }
+      ]
+    },
+    {
+      "name": "Engineering & Infrastructure",
+      "companies": [
+        {
+          "name": "COWI",
+          "careerUrl": "https://www.cowi.com/your-career/open-vacancies/?page=0&country=Denmark",
+          "platform": "custom"
+        },
+        {
+          "name": "Danfoss",
+          "careerUrl": "https://jobs.danfoss.com/search/?searchResultView=LIST&locationsearch=denmark&pageNumber=0&facetFilters=%7B%7D&sortBy=&markerViewed=&carouselIndex=",
+          "platform": "custom"
+        },
+        {
+          "name": "Grundfos",
+          "careerUrl": "https://jobs.grundfos.com/search/?q=&locale=en_GB&searchResultView=LIST&markerViewed=&carouselIndex=&facetFilters=%7B%22jobLocationCountry%22%3A%5B%22Denmark%22%5D%7D&pageNumber=0&utm_source=CorpSite&utm_campaign=corp_dk_header_alljobslink&sortBy=date",
+          "platform": "custom"
+        },
+        {
+          "name": "Milestone Systems",
+          "careerUrl": "https://fa-ewto-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?location=Copenhagen%2C+Denmark&locationId=300000004078017&locationLevel=state&mode=location",
+          "platform": "custom"
+        },
+        {
+          "name": "Ramboll",
+          "careerUrl": "https://ramboll.com/careers",
+          "platform": "custom"
+        },
+        {
+          "name": "Sweco Denmark",
+          "careerUrl": "https://www.swecogroup.com/careers/vacancies/?scroll-to=vacancies-top&country=4",
+          "platform": "custom"
+        }
+      ]
+    },
+    {
+      "name": "E-commerce & Consumer",
+      "companies": [
+        {
+          "name": "AutoProff",
+          "careerUrl": "https://www.autoproff.dk/jobs#ap-job-board-container",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "Boozt",
+          "careerUrl": "https://careers.booztgroup.com/jobs",
+          "platform": "custom"
+        },
+        {
+          "name": "HelloFresh Nordic",
+          "careerUrl": "https://www.hellofreshgroup.com/en/careers/",
+          "platform": "custom"
+        },
+        {
+          "name": "Just Eat Takeaway",
+          "careerUrl": "https://careers.justeattakeaway.com/global/en/denmark",
+          "platform": "custom"
+        },
+        {
+          "name": "NORNORM",
+          "careerUrl": "https://careers.nornorm.com/jobs",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "Wolt Denmark",
+          "careerUrl": "https://careers.wolt.com/en/locations/denmark",
+          "platform": "custom"
+        }
+      ]
+    },
+    {
+      "name": "Industrial & Logistics",
+      "companies": [
+        {
+          "name": "Carlsberg",
+          "careerUrl": "https://careers.carlsberg.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield3=&optionsFacetsDD_customfield2=",
+          "platform": "custom"
+        },
+        {
+          "name": "DFDS",
+          "careerUrl": "https://dfdsdenmark.teamtailor.com/jobs",
+          "platform": "teamtailor"
+        },
+        {
+          "name": "DSV",
+          "careerUrl": "https://www.dsv.com/en/careers?CountryCode=DK&q=%2A",
+          "platform": "custom"
+        },
+        {
+          "name": "ISS",
+          "careerUrl": "https://jobs.issworld.com/search/?createNewAlert=false&q=&locationsearch=denmark&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield2=&optionsFacetsDD_country=",
+          "platform": "custom"
+        },
+        {
+          "name": "LEGO",
+          "careerUrl": "https://www.lego.com/en-us/careers/search",
+          "platform": "custom"
+        },
+        {
+          "name": "Maersk",
+          "careerUrl": "https://www.maersk.com/careers/vacancies",
+          "platform": "custom"
+        },
+        {
+          "name": "Pandora",
+          "careerUrl": "https://careers.pandoragroup.com/search/?createNewAlert=false&q=&locationsearch=copenhagen",
+          "platform": "custom"
+        }
+      ]
+    },
+    {
+      "name": "Media & Publishing",
+      "companies": [
+        {
+          "name": "DR (Danish Broadcasting)",
+          "careerUrl": "https://www.dr.dk/om-dr/job",
+          "platform": "custom"
+        },
+        {
+          "name": "JP/Politikens Hus",
+          "careerUrl": "https://jppol.dk/karriere/",
+          "platform": "custom"
+        },
+        {
+          "name": "TV 2 Denmark",
+          "careerUrl": "https://omtv2.tv2.dk/job/ledige-stillinger-paa-tv-2/",
+          "platform": "custom"
+        },
+        {
+          "name": "Zetland",
+          "careerUrl": "https://www.zetland.dk/aboutzetland",
+          "platform": "custom"
+        }
+      ]
     }
   ]
 }
